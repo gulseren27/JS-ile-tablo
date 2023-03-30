@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript ile For Uygulamasi</title>
+</head>
+<body >
+    <FONT FACE="Comic sans MS">
+    <script language="Javascript">
+        document.writeln( "<TABLE BORDER = '2' WIDTH = '50%' BGCOLOR = #9fb6cd>" );
+        document.writeln( "<TR><TD WIDTH = '80'><B>SAYI</B></TD>" );
+        document.writeln("<TD><B>SAYININ KARESİ</B></TD>" );
+        document.writeln("<TD><B>SAYININ KÜBÜ</B></TD></TR>" );
+        for(var i=1;i<15;i++){
+            kare=i*i;
+            küp=i*i*i;
+            document.writeln( "<TR><TD>" + i + "</TD><TD>" + kare + "</TD><TD>"+küp+ "</TD></TR>");
+        }
+
+            document.writeln("</TABLE>")
+    </script>
+
+</FONT>
+</body>
+</html>
